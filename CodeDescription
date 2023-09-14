@@ -1,7 +1,7 @@
-#This code is an implementation of a chat client that connects to the server on a specific port and host, allowing the user to enter a nickname. 
-#A socket client is created that connects to the server using TCP on the specified host and port.
+# This code is an implementation of a chat client that connects to the server on a specific port and host, allowing the user to enter a nickname. 
+# A socket client is created that connects to the server using TCP on the specified host and port.
 # The user is prompted to enter a nickname, which is stored in the "nickname" variable.
 # The "receive" thread continuously receives messages from the server and displays them on the screen.
-#If it receives a 'NICK' message from the server, it sends its nickname.
-#The "write" thread allows the user to enter messages from the console, which are sent to the server in the format "nickname: message body". 
+# If it receives a 'NICK' message from the server, it sends its nickname.
+# The "write" thread allows the user to enter messages from the console, which are sent to the server in the format "nickname: message body". 
 # If an error occurs, such as a connection loss, an error message is displayed and the client closes its connection.
